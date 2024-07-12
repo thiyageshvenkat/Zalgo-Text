@@ -14,7 +14,6 @@ public class Zalgo {
 }
 public class Program {
     public static void Main(string[] args) {
-        Console.WriteLine("Hello, World!");
         string zalgoText = Zalgo.zalgo("Zalgo Text", 8);
         Console.WriteLine(zalgoText);
     }
